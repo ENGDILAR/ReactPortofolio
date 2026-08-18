@@ -47,7 +47,7 @@ export function Contact() {
 
             <div className="mt-8 flex flex-wrap justify-center gap-3">
               <Button size="lg" asChild>
-                <a href="mailto:dilaralmio@example.com">
+                <a href="mailto:dilaralmio@gmail.com">
                   <Mail />
                   Send me an email
                 </a>
