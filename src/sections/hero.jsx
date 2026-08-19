@@ -100,7 +100,7 @@ export function Hero() {
 
           {/* Technologies */}
           <div className="mt-8 flex flex-wrap gap-2">
-            {["ASP.NET Core", "Laravel", "SQL Server", "REST APIs"].map(
+            {["ASP.NET Core", "Laravel", "SQL Server", "REST APIs","React JS","My Sql"].map(
               (technology) => (
                 <Badge
                   key={technology}
