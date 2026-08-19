@@ -18,6 +18,8 @@ const skillGroups = [
       "JWT",
       "Refresh Tokens",
       "Role-Based Authorization",
+      "Entity Framework Core",
+      "ADO.NET",
     ],
   },
   {
@@ -29,8 +31,7 @@ const skillGroups = [
       "T-SQL",
       "SQL",
       "Database Design",
-      "Entity Framework Core",
-      "ADO.NET",
+      
     ],
   },
   {
@@ -52,7 +53,7 @@ const skillGroups = [
   {
     icon: Server,
     title: "Frontend",
-    skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "Laravel Blade"],
+    skills: ["WinForms","HTML", "CSS", "JavaScript", "Bootstrap", "Laravel Blade"],
   },
   {
     icon: Wrench,
@@ -64,8 +65,8 @@ const skillGroups = [
       "Postman",
       "Visual Studio",
       "Visual Studio Code",
-      "WinForms",
-      "ADO.NET",
+      
+      
     ],
   },
 ];
