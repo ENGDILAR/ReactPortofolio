@@ -53,7 +53,7 @@ const skillGroups = [
   {
     icon: Server,
     title: "Frontend",
-    skills: ["WinForms","HTML", "CSS", "JavaScript", "Bootstrap", "Laravel Blade"],
+    skills: ["Reactjs","Schadcn/ui","WinForms","HTML", "CSS", "JavaScript", "TailwindCSS", "Laravel Blade"],
   },
   {
     icon: Wrench,
