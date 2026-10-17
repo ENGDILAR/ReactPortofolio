@@ -4,30 +4,53 @@ import { Badge } from "@/components/ui/badge";
 const experiences = [
   {
     icon: GraduationCap,
-    period: "2021 — 2025",
-    title: "Software Engineering Education",
+    period: "2020 — 2025",
+    title: "Information Engineering Graduate",
     organization: "Syrian Private University",
     description:
-      "Studied Software Engineering with a focus on software development, databases, web applications, and software architecture.",
-    tags: ["Software Engineering", "Databases", "Web Development"],
+      "Graduated with a degree in Information Engineering, building a foundation in programming, databases, data structures, web development, and software engineering principles.",
+    tags: ["Information Engineering", "Programming", "Databases"],
   },
   {
     icon: Code2,
-    period: "Academic & Personal Projects",
-    title: "Backend & Software Development",
-    organization: "Independent Projects",
+    period: "2026",
+    title: "University Management System",
+    organization: "Full Stack Personal Project",
     description:
-      "Designed and developed backend applications and APIs using .NET, Laravel, SQL Server, and related technologies.",
-    tags: ["ASP.NET Core", "Laravel", "REST APIs"],
+      "Developed a full-stack university management system using ASP.NET Core 8, React, Entity Framework Core, and SQL Server. Implemented role-based workflows for administrators, instructors, and students, covering courses, course offerings, enrollments, and academic assessments. Added JWT authentication with refresh tokens, role-based authorization, FluentValidation, rate limiting, pagination, and transactional operations. Containerized the frontend, API, and database using Docker and Docker Compose.",
+    tags: [
+      "ASP.NET Core 8",
+      "React",
+      "EF Core",
+      "SQL Server",
+      "JWT",
+      "Docker",
+      "Docker Compose",
+    ],
   },
   {
     icon: BriefcaseBusiness,
-    period: "Project Experience",
+    period: "2024",
     title: "Hospital Management System",
-    organization: "Graduation Project",
+    organization: "University Graduation Project",
     description:
-      "Worked on a bilingual hospital management system covering areas such as electronic medical records, outpatient clinics, laboratories, radiology, billing, insurance, and ambulance management.",
-    tags: ["ASP.NET Core", "SQL Server", "Healthcare"],
+      "Collaborated on a bilingual hospital management system using Laravel, Livewire, and MySQL. Implemented healthcare workflows covering electronic medical records, outpatient clinics, laboratory and radiology services, billing, insurance, and ambulance management.",
+    tags: ["Laravel", "Livewire", "MySQL", "Repository Pattern", "MVC"],
+  },
+  {
+    icon: Code2,
+    period: "Personal Project",
+    title: "Driving & Vehicle License Department",
+    organization: "Independent Project",
+    description:
+      "Designed and developed a layered desktop application using C# and Windows Forms to manage driving license issuance, renewal, replacement, detention, and driving tests, with a dedicated business layer and ADO.NET data access.",
+    tags: [
+      "C#",
+      ".NET Framework 4.8",
+      "Windows Forms",
+      "ADO.NET",
+      "SQL Server",
+    ],
   },
 ];
 
@@ -35,7 +58,6 @@ export function Experience() {
   return (
     <section id="experience" className="py-20 sm:py-24">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        {/* Heading */}
         <div className="max-w-2xl">
           <p className="text-sm font-medium text-primary">Experience</p>
 
@@ -49,7 +71,6 @@ export function Experience() {
           </p>
         </div>
 
-        {/* Timeline */}
         <div className="relative mt-12">
           <div className="absolute left-5 top-2 bottom-2 hidden w-px bg-border sm:block" />
 
@@ -59,7 +80,6 @@ export function Experience() {
 
               return (
                 <article key={experience.title} className="relative sm:pl-16">
-                  {/* Timeline icon */}
                   <div className="mb-4 flex size-10 items-center justify-center rounded-full border border-border bg-background text-primary sm:absolute sm:left-0 sm:top-0">
                     <Icon className="size-5" />
                   </div>

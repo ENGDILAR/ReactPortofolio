@@ -18,6 +18,12 @@ const courses = [
   "T-SQL",
   "REST APIs",
   "Problem Solving",
+  "ASP.NET Core",
+  "Entity Framework Core",
+  "React",
+  "Docker",
+  "Laravel",
+  "PHP",
 ];
 
 const languages = [

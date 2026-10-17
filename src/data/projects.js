@@ -1,5 +1,57 @@
 export const projects = [
   {
+    id: "ums",
+    title: "University Management System",
+    category: "Full Stack",
+    description:
+      "A full-stack university management system built with ASP.NET Core 8, React, and SQL Server, featuring role-based academic workflows and Docker containerization.",
+    technologies: [
+      "ASP.NET Core 8",
+      "React",
+      "JavaScript",
+      "EF Core",
+      "SQL Server",
+      "JWT",
+      "Tailwind CSS",
+      "Docker",
+      "Docker Compose",
+    ],
+    github: "https://github.com/ENGDILAR/Institute_Management_System_FullStack",
+    image: "/UMS.png",
+
+    details: {
+      overview:
+        "A full-stack University Management System designed to manage academic operations through dedicated workflows for administrators, instructors, and students. The application combines a React frontend, an ASP.NET Core Web API, and a SQL Server database, with all components containerized using Docker Compose.",
+
+      features: [
+        "Role-based access for administrators, instructors, and students.",
+        "Course and course offering management.",
+        "Student enrollment management.",
+        "Academic marks and exam assessment management.",
+        "JWT authentication with refresh tokens.",
+        "Role-based authorization and secure API endpoints.",
+        "FluentValidation for request validation.",
+        "Pagination for data retrieval.",
+        "Rate limiting for API protection.",
+        "Transactional operations for data consistency.",
+        "Docker Compose orchestration for the frontend, API, and database.",
+      ],
+
+      architecture: [
+        "ASP.NET Core Web API",
+        "React",
+        "Entity Framework Core",
+        "Layered Architecture",
+        "DTO Pattern",
+        "Dependency Injection",
+        "JWT Authentication",
+        "FluentValidation",
+        "Docker",
+        "Docker Compose",
+      ],
+    },
+  },
+  {
     id: "hms",
     title: "Hospital Management System",
     category: "Full Stack",

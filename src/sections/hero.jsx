@@ -46,17 +46,19 @@ export function Hero() {
             Hi, I'm <span className="text-primary">Dilar Almaao</span>.
           </h1>
 
+          <h2 className="mt-3 text-xl font-semibold sm:text-2xl">
+            Full Stack Developer
+          </h2>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground sm:text-xl">
-            I build backend applications, APIs, and business systems with a
-            focus on clean architecture, reliability, and maintainable code.
+            I build Full Stack Web applications, APIs, and business systems with
+            a focus on clean architecture, reliability, and maintainable code.
           </p>
 
           <p className="mt-4 max-w-2xl text-base leading-7 text-muted-foreground">
-            My main tools are .NET, Laravel, SQL Server, and modern web
-            technologies.
+            My main tools are .NET, Laravel, SQL Server,Reactjs,schadcn/ui, and
+            modern web technologies.
           </p>
 
-          {/* Actions */}
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Button size="lg" asChild>
               <a href="#projects">
@@ -98,19 +100,19 @@ export function Hero() {
             </Button>
           </div>
 
-          {/* Technologies */}
           <div className="mt-8 flex flex-wrap gap-2">
-            {["ASP.NET Core", "Laravel", "SQL Server", "REST APIs"].map(
-              (technology) => (
-                <Badge
-                  key={technology}
-                  variant="outline"
-                  className="font-normal"
-                >
-                  {technology}
-                </Badge>
-              ),
-            )}
+            {[
+              "ASP.NET Core",
+              "Laravel",
+              "React",
+              "SQL Server",
+              "REST APIs",
+              "Docker",
+            ].map((technology) => (
+              <Badge key={technology} variant="outline" className="font-normal">
+                {technology}
+              </Badge>
+            ))}
           </div>
         </div>
 
